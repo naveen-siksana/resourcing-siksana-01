@@ -1,0 +1,85 @@
+.
+├── config
+│   ├── environments
+│   ├── schemas
+│   └── templates
+├── data
+│   ├── backups
+│   ├── exports
+│   ├── imports
+│   └── logs
+├── docs
+│   ├── api
+│   │   ├── financials
+│   │   └── resourcing
+│   ├── architecture
+│   │   ├── decisions
+│   │   └── diagrams
+│   ├── setup
+│   └── user-guides
+├── scripts
+│   ├── database
+│   ├── deployment
+│   └── utilities
+├── src
+│   ├── api
+│   │   ├── controllers
+│   │   ├── middleware
+│   │   └── routes
+│   ├── database
+│   │   ├── migrations
+│   │   ├── queries
+│   │   └── seeds
+│   ├── integrations
+│   │   ├── accounting
+│   │   ├── erp
+│   │   ├── hr
+│   │   └── payroll
+│   ├── models
+│   │   ├── financials
+│   │   ├── resourcing
+│   │   └── shared
+│   ├── modules
+│   │   ├── analytics
+│   │   │   ├── dashboards
+│   │   │   ├── kpis
+│   │   │   └── metrics
+│   │   ├── auth
+│   │   │   ├── authentication
+│   │   │   ├── authorization
+│   │   │   └── roles
+│   │   ├── financials
+│   │   │   ├── budgets
+│   │   │   ├── expenses
+│   │   │   ├── forecasting
+│   │   │   ├── invoices
+│   │   │   ├── payroll
+│   │   │   └── reports
+│   │   └── resourcing
+│   │       ├── allocations
+│   │       ├── departments
+│   │       ├── employees
+│   │       ├── projects
+│   │       ├── skills
+│   │       └── timesheets
+│   ├── services
+│   │   ├── financials
+│   │   ├── integrations
+│   │   └── resourcing
+│   └── utils
+│       ├── formatters
+│       ├── helpers
+│       └── validators
+└── tests
+    ├── e2e
+    │   ├── scenarios
+    │   └── workflows
+    ├── integration
+    │   ├── api
+    │   └── database
+    └── unit
+        ├── financials
+        ├── resourcing
+        └── utils
+
+83 directories
